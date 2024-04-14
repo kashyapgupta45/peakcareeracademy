@@ -8,25 +8,81 @@
 
         .map
         {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 0 30%;
             float:right;
             padding:20px;
         }
+        @media (max-width: 768px) {
+            .map {
+                flex-basis: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .map {
+                flex-basis: 100%;
+            }
+        }
+        
 
         .img_dec
         {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 0 30%;
             position:absolute;
             left:500px;
             top:10px;
             width:80px;
             height:80px;
         }
+        @media (max-width: 768px) {
+            .map {
+                flex-basis: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .map {
+                flex-basis: 100%;
+            }
+        }
 
         .pc_a
         {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 0 30%;
             position:absolute;
             left:500px;
             width:400px;
             height:400px;
+        }
+        @media (max-width: 768px) {
+            .map {
+                flex-basis: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .map {
+                flex-basis: 100%;
+            }
+        }
+
+        .item {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 0 30%;
+        }
+        @media (max-width: 768px) {
+            .map {
+                flex-basis: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .map {
+                flex-basis: 100%;
+            }
         }
 
         body {
@@ -82,9 +138,22 @@
             bottom: 0;
             width: 100%;
         }
-.kas {
-  rgb(148, 147, 152);
-}
+        .kas {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 0 30%;
+            rgb(148, 147, 152);
+        } 
+        @media (max-width: 768px) {
+            .map {
+                flex-basis: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .map {
+                flex-basis: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -102,7 +171,7 @@
     </header>
 
     <section id="home">
-            <h2>Welcome to our Coaching Class!<img class="pc_a" src="peakcareeracademy.jpg" width="400px" height="400px"></img><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29844.680026585687!2d72.96542868767192!3d20.7676080498227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0ee423c0a4b2f%3A0xe413d0603fe2891c!2sBilimora%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1708809540046!5m2!1sen!2sin" width="400" height="300" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h2>
+            <h2 class="item">Welcome to our Coaching Class!<img class="pc_a" src="peakcareeracademy.jpg" width="400px" height="400px"></img><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29844.680026585687!2d72.96542868767192!3d20.7676080498227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0ee423c0a4b2f%3A0xe413d0603fe2891c!2sBilimora%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1708809540046!5m2!1sen!2sin" width="400" height="300" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h2>
     </section>
     <footer>
         <p>&copy; 2024 Coaching Centre</p>
